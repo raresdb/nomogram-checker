@@ -1,0 +1,22 @@
+#Butilca Rares
+
+Program used to verify maps according to the set of rules given for a nomogram game.
+
+Input:
+-> first line: number of puzzles to check
+-> next lines: the puzzles
+
+-> for each puzzle<-
+-> first line: the dimensions
+-> next lines: restrictions for each line
+-> next lines: restrictions for each column
+
+restrictions: each rule will be represented by a set of values representing the number of black
+consecutive squares that is required to be colored. The aparition of the blocks of black squares
+in the line or column has to be in the same order as the one in the set of values.
+
+
+Output:
+For each puzzle, Right or Wrong is outputed on a separate line.
+
+Nomogram: https://en.wikipedia.org/wiki/Nonogram
